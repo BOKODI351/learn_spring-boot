@@ -22,11 +22,12 @@ public class Main {
                         "Omar Haida",
                         21,
                         "10 rue 3",
-                        "0620208582"
+                        "0620208582",
+                        30_000
                 )
         );
     }
-    record Person(String name, int age, String address, String phone){}
+    record Person(String name, int age, String address, String phone, double save){}
     record GreetResponse(
             String greet,
             List<String> favProgrammingLanguages,
